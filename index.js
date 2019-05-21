@@ -46,6 +46,7 @@ function onNativeModuleEvent(event) {
 }
 
 DeviceEventEmitter.addListener(EVENT_NAME, onNativeModuleEvent);
+DeviceEventEmitter.removeListener(EVENT_NAME, onNativeModuleEvent);
 
 
 
